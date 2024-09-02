@@ -1,5 +1,111 @@
- <h1>Prajval's Portfolio</h1>
-       
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prajval's Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        /* styles.css */
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            width: 100%;
+        }
+
+        header, nav, section, footer {
+            width: 100%;
+            max-width: 100%;
+            box-sizing: border-box;
+        }
+
+        header {
+            background: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 20px;
+            margin: 0 auto;
+            box-sizing: border-box;
+        }
+
+        .project {
+            margin-bottom: 20px;
+        }
+
+        .project h3 {
+            margin: 0;
+        }
+
+        .project ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .project ul li {
+            margin: 5px 0;
+        }
+
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            position: relative;
+        }
+
+        ul {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+        }
+
+        ul li a {
+            text-decoration: none;
+            color: inherit;
+            display: flex;
+            align-items: center;
+        }
+
+        ul li a i {
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Prajval's Portfolio</h1>
+        <a href="mailto:prajval.yadavannavar@example.com" target="_blank">
+            <i class="fas fa-envelope"></i> Email
+        </a>
         <p>Analytics Portfolio</p>
     </header>
 
@@ -81,4 +187,5 @@
     <footer>
         <p>&copy; 2024 Prajval Yadavannavar. All rights reserved.</p>
     </footer>
-
+</body>
+</html>
