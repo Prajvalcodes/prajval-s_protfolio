@@ -103,9 +103,7 @@
 <body>
     <header>
         <h1>Prajval's Portfolio</h1>
-        <a href="mailto:prajval.yadavannavar@example.com" target="_blank">
-            <i class="fas fa-envelope"></i> Email
-        </a>
+       
         <p>Analytics Portfolio</p>
     </header>
 
