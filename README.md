@@ -4,6 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Prajval's Portfolio</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
         /* styles.css */
 
@@ -136,10 +137,22 @@ footer {
         <h2>Contact</h2>
         <p>If you'd like to get in touch, feel free to reach out to me through the following:</p>
         <ul>
-            <li><strong>Email:</strong> <a href="mailto:prajval.yadavannavar@example.com">prajval.yadavannavar@example.com</a></li>
-            <li><strong>LinkedIn:</strong> <a href="#">linkedin.com/in/prajval-yadavannavar</a></li>
-            <li><strong>GitHub:</strong> <a href="#">github.com/prajvalyadavannavar</a></li>
-        </ul>
+    <li>
+        <a href="mailto:prajval.yadavannavar@example.com" target="_blank">
+            <i class="fas fa-envelope"></i> Email
+        </a>
+    </li>
+    <li>
+        <a href="https://linkedin.com/in/prajval-yadavannavar" target="_blank">
+            <i class="fab fa-linkedin"></i> LinkedIn
+        </a>
+    </li>
+    <li>
+        <a href="https://github.com/prajvalyadavannavar" target="_blank">
+            <i class="fab fa-github"></i> GitHub
+        </a>
+    </li>
+</ul>
     </section>
 
     <footer>
